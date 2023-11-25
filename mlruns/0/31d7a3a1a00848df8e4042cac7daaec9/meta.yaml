@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Classfication_Model_Using_MLflow/mlruns/0/31d7a3a1a00848df8e4042cac7daaec9/artifacts
+end_time: 1700900403175
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 31d7a3a1a00848df8e4042cac7daaec9
+run_name: clean-snipe-779
+run_uuid: 31d7a3a1a00848df8e4042cac7daaec9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1700900398346
+status: 3
+tags: []
+user_id: jnote
