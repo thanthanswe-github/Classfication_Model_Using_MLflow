@@ -81,7 +81,7 @@ if __name__ == "__main__":
         mlflow.set_tracking_url(remote_server_url)
         tracking_url_type_store = urlparse(mlflow.get_tracking_uri()).scheme
 
-        # Model registry does not work with file store
+        # Model registry does not work with file store,
         if tracking_url_type_store != "file":
             # Register the model
             # There are other ways to use the Model Registry, which depends on the use case,
