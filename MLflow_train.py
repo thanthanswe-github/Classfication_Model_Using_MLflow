@@ -80,7 +80,7 @@ if __name__ == "__main__":
         remote_server_url = 'https://dagshub.com/thanthanswe-github/Classfication_Model_Using_MLflow.mlflow'
         mlflow.set_tracking_url(remote_server_url)
         tracking_url_type_store = urlparse(mlflow.get_tracking_uri()).scheme
-
+####
         # Model registry does not work with file store,
         if tracking_url_type_store != "file":
             # Register the model
