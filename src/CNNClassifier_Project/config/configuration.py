@@ -1,7 +1,7 @@
 import os
-from src.CNNClassifier_Project.constants import *
-from src.CNNClassifier_Project.utils.common import read_yaml, create_directories
-from src.CNNClassifier_Project.entity.config_entity import (DataIngestionConfig,
+from CNNClassifier_Project.constants import *
+from CNNClassifier_Project.utils.common import read_yaml, create_directories
+from CNNClassifier_Project.entity.config_entity import (DataIngestionConfig,
                                                 PrepareBaseModelConfig,
                                                 TrainingConfig,
                                                 EvaluationConfig)
@@ -84,7 +84,7 @@ class ConfigurationManager:
         eval_config = EvaluationConfig(
             path_of_model="artifacts/training/model.h5",
             training_data="artifacts/data_ingestion/Chest-CT-Scan-data",
-            mlflow_uri="https://dagshub.com/entbappy/chest-Disease-Classification-MLflow-DVC.mlflow",
+            mlflow_uri="https://dagshub.com/thanthanswe-github/Classfication_Model_Using_MLflow.mlflow",
             all_params=self.params,
             params_image_size=self.params.IMAGE_SIZE,
             params_batch_size=self.params.BATCH_SIZE
