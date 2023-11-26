@@ -5,7 +5,7 @@ import logging
 
 logging.basicConfig(level=logging.INFO, format='[%(asctime)s]: %(message)s:')
 
-project_name ="Than_Than_Swe_CNN_Classifier_Project"
+project_name ="CNN_Classifier_Project"
 
 
 list_of_files = [
@@ -25,7 +25,6 @@ list_of_files = [
     "setup.py",
     "my_sourcecode/trials.ipynb",
     "templates/index.html"
-
 
 ]
 
