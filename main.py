@@ -1,6 +1,6 @@
-from src.CNNClassifier_Project import logger
+from CNNClassifier_Project import logger
 
-from src.CNNClassifier_Project.pipeline.stage_01_data_ingestion import DataIngestionTrainingPipeline
+from CNNClassifier_Project.pipeline.stage_01_data_ingestion import DataIngestionTrainingPipeline
 from src.CNNClassifier_Project.pipeline.stage_02_prepare_base_model import PrepareBaseModelTrainingPipeline
 from src.CNNClassifier_Project.pipeline.stage_03_model_trainer import ModelTrainingPipeline
 from src.CNNClassifier_Project.pipeline.stage_04_model_evaluation import EvaluationPipeline
