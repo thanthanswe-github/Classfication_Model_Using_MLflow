@@ -23,8 +23,6 @@ class PrepareBaseModelConfig:
     params_classes: int
 
 
-
-
 @dataclass(frozen=True)
 class TrainingConfig:
     root_dir: Path
