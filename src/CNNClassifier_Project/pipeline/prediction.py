@@ -1,8 +1,10 @@
 import numpy as np
-from tensorflow.keras.models import load_model
-from tensorflow.keras.preprocessing import image
-import os
 
+from tensorflow import keras
+from keras.models import load_model
+# from keras.preprocessing import image
+import os
+import keras.utils as image
 
 
 class PredictionPipeline:
